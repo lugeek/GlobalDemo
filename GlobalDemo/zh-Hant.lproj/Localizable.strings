@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  GlobalDemo
+
+  Created by lugeek on 2020/10/16.
+  
+*/
+home = "家";
+Language = "語言";
+flag = "flag_zh-Hans";

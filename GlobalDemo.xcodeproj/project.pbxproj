@@ -8,27 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		C7D146A4253940220017D099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D146A3253940220017D099 /* AppDelegate.m */; };
-		C7D146A7253940220017D099 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D146A6253940220017D099 /* SceneDelegate.m */; };
 		C7D146AA253940220017D099 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D146A9253940220017D099 /* ViewController.m */; };
-		C7D146AD253940220017D099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D146AB253940220017D099 /* Main.storyboard */; };
 		C7D146AF253940220017D099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D146AE253940220017D099 /* Assets.xcassets */; };
-		C7D146B2253940220017D099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D146B0253940220017D099 /* LaunchScreen.storyboard */; };
 		C7D146B5253940220017D099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D146B4253940220017D099 /* main.m */; };
+		C7D146E4253983770017D099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D146E6253983770017D099 /* InfoPlist.strings */; };
+		C7D146F1253985490017D099 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D146F3253985490017D099 /* Localizable.strings */; };
+		C7D146FD25398BDA0017D099 /* demo.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D146FF25398BDA0017D099 /* demo.strings */; };
+		C7D1470D253D3F070017D099 /* LanguageSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D1470C253D3F070017D099 /* LanguageSettingViewController.m */; };
+		C7D14714253D8B430017D099 /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D14713253D8B430017D099 /* NSBundle+Localization.m */; };
+		C7D14718253D8FC80017D099 /* LocalizeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D14717253D8FC80017D099 /* LocalizeConfig.m */; };
+		C7D1471C253E78EF0017D099 /* UIImageView+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D1471B253E78EF0017D099 /* UIImageView+Localization.m */; };
+		C7D14720253FC9830017D099 /* NSString+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D1471F253FC9830017D099 /* NSString+Localization.m */; };
+		C7D14729254028AE0017D099 /* flag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7D1472B254028AE0017D099 /* flag.jpeg */; };
+		DFC91C1250A2651C756619E2 /* libPods-GlobalDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25923780C9860A49EA9A5015 /* libPods-GlobalDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25923780C9860A49EA9A5015 /* libPods-GlobalDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlobalDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CAEEF7DB1D93EBB46706B3 /* Pods-GlobalDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalDemo/Pods-GlobalDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		84D40F46716918397C94CFDA /* Pods-GlobalDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalDemo/Pods-GlobalDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C7D1469F253940220017D099 /* GlobalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D146A2253940220017D099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7D146A3253940220017D099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C7D146A5253940220017D099 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		C7D146A6253940220017D099 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		C7D146A8253940220017D099 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C7D146A9253940220017D099 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C7D146AC253940220017D099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7D146AE253940220017D099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C7D146B1253940220017D099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7D146B3253940220017D099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D146B4253940220017D099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7D146E5253983770017D099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7D146E82539837A0017D099 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C7D146E92539837C0017D099 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C7D146EA2539837D0017D099 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7D146EB2539837F0017D099 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7D146F2253985490017D099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C7D146F52539854C0017D099 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C7D146F62539854D0017D099 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C7D146F72539854E0017D099 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C7D146F82539854F0017D099 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C7D146FE25398BDA0017D099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/demo.strings; sourceTree = "<group>"; };
+		C7D1470125398BDE0017D099 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/demo.strings"; sourceTree = "<group>"; };
+		C7D1470225398BDF0017D099 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/demo.strings"; sourceTree = "<group>"; };
+		C7D1470325398BE00017D099 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/demo.strings; sourceTree = "<group>"; };
+		C7D1470425398BE10017D099 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/demo.strings; sourceTree = "<group>"; };
+		C7D1470B253D3F070017D099 /* LanguageSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageSettingViewController.h; sourceTree = "<group>"; };
+		C7D1470C253D3F070017D099 /* LanguageSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSettingViewController.m; sourceTree = "<group>"; };
+		C7D14712253D8B430017D099 /* NSBundle+Localization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Localization.h"; sourceTree = "<group>"; };
+		C7D14713253D8B430017D099 /* NSBundle+Localization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Localization.m"; sourceTree = "<group>"; };
+		C7D14716253D8FC80017D099 /* LocalizeConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizeConfig.h; sourceTree = "<group>"; };
+		C7D14717253D8FC80017D099 /* LocalizeConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeConfig.m; sourceTree = "<group>"; };
+		C7D1471A253E78EF0017D099 /* UIImageView+Localization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Localization.h"; sourceTree = "<group>"; };
+		C7D1471B253E78EF0017D099 /* UIImageView+Localization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Localization.m"; sourceTree = "<group>"; };
+		C7D1471E253FC9830017D099 /* NSString+Localization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Localization.h"; sourceTree = "<group>"; };
+		C7D1471F253FC9830017D099 /* NSString+Localization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Localization.m"; sourceTree = "<group>"; };
+		C7D1472225401D540017D099 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7D1472325401D540017D099 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C7D1472425401D540017D099 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/demo.strings; sourceTree = "<group>"; };
+		C7D1472A254028AE0017D099 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/flag.jpeg; sourceTree = "<group>"; };
+		C7D1472D254028B60017D099 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ar; path = ar.lproj/flag.jpeg; sourceTree = "<group>"; };
+		C7D1472E254028B90017D099 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zh-Hans"; path = "zh-Hans.lproj/flag.jpeg"; sourceTree = "<group>"; };
+		C7D1472F254028BA0017D099 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zh-Hant"; path = "zh-Hant.lproj/flag.jpeg"; sourceTree = "<group>"; };
+		C7D14730254028BB0017D099 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = de; path = de.lproj/flag.jpeg; sourceTree = "<group>"; };
+		C7D14731254028BD0017D099 /* ja */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ja; path = ja.lproj/flag.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +76,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC91C1250A2651C756619E2 /* libPods-GlobalDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68A469A73DEF377A3D39C091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46CAEEF7DB1D93EBB46706B3 /* Pods-GlobalDemo.debug.xcconfig */,
+				84D40F46716918397C94CFDA /* Pods-GlobalDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFB499CE1DE8E7866840FF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25923780C9860A49EA9A5015 /* libPods-GlobalDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7D14696253940220017D099 = {
 			isa = PBXGroup;
 			children = (
 				C7D146A1253940220017D099 /* GlobalDemo */,
 				C7D146A0253940220017D099 /* Products */,
+				68A469A73DEF377A3D39C091 /* Pods */,
+				AFB499CE1DE8E7866840FF28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,15 +123,25 @@
 			children = (
 				C7D146A2253940220017D099 /* AppDelegate.h */,
 				C7D146A3253940220017D099 /* AppDelegate.m */,
-				C7D146A5253940220017D099 /* SceneDelegate.h */,
-				C7D146A6253940220017D099 /* SceneDelegate.m */,
 				C7D146A8253940220017D099 /* ViewController.h */,
 				C7D146A9253940220017D099 /* ViewController.m */,
-				C7D146AB253940220017D099 /* Main.storyboard */,
 				C7D146AE253940220017D099 /* Assets.xcassets */,
-				C7D146B0253940220017D099 /* LaunchScreen.storyboard */,
+				C7D1472B254028AE0017D099 /* flag.jpeg */,
 				C7D146B3253940220017D099 /* Info.plist */,
 				C7D146B4253940220017D099 /* main.m */,
+				C7D146E6253983770017D099 /* InfoPlist.strings */,
+				C7D146F3253985490017D099 /* Localizable.strings */,
+				C7D146FF25398BDA0017D099 /* demo.strings */,
+				C7D1470B253D3F070017D099 /* LanguageSettingViewController.h */,
+				C7D1470C253D3F070017D099 /* LanguageSettingViewController.m */,
+				C7D14712253D8B430017D099 /* NSBundle+Localization.h */,
+				C7D14713253D8B430017D099 /* NSBundle+Localization.m */,
+				C7D14716253D8FC80017D099 /* LocalizeConfig.h */,
+				C7D14717253D8FC80017D099 /* LocalizeConfig.m */,
+				C7D1471A253E78EF0017D099 /* UIImageView+Localization.h */,
+				C7D1471B253E78EF0017D099 /* UIImageView+Localization.m */,
+				C7D1471E253FC9830017D099 /* NSString+Localization.h */,
+				C7D1471F253FC9830017D099 /* NSString+Localization.m */,
 			);
 			path = GlobalDemo;
 			sourceTree = "<group>";
@@ -83,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7D146B8253940220017D099 /* Build configuration list for PBXNativeTarget "GlobalDemo" */;
 			buildPhases = (
+				67424CCE88EB1F97470D2906 /* [CP] Check Pods Manifest.lock */,
 				C7D1469B253940220017D099 /* Sources */,
 				C7D1469C253940220017D099 /* Frameworks */,
 				C7D1469D253940220017D099 /* Resources */,
@@ -116,6 +187,11 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				ja,
+				de,
+				"zh-Hans",
+				ar,
 			);
 			mainGroup = C7D14696253940220017D099;
 			productRefGroup = C7D146A0253940220017D099 /* Products */;
@@ -132,13 +208,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D146B2253940220017D099 /* LaunchScreen.storyboard in Resources */,
+				C7D14729254028AE0017D099 /* flag.jpeg in Resources */,
+				C7D146E4253983770017D099 /* InfoPlist.strings in Resources */,
+				C7D146FD25398BDA0017D099 /* demo.strings in Resources */,
+				C7D146F1253985490017D099 /* Localizable.strings in Resources */,
 				C7D146AF253940220017D099 /* Assets.xcassets in Resources */,
-				C7D146AD253940220017D099 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67424CCE88EB1F97470D2906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlobalDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7D1469B253940220017D099 /* Sources */ = {
@@ -146,29 +249,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7D146AA253940220017D099 /* ViewController.m in Sources */,
+				C7D14714253D8B430017D099 /* NSBundle+Localization.m in Sources */,
 				C7D146A4253940220017D099 /* AppDelegate.m in Sources */,
 				C7D146B5253940220017D099 /* main.m in Sources */,
-				C7D146A7253940220017D099 /* SceneDelegate.m in Sources */,
+				C7D14718253D8FC80017D099 /* LocalizeConfig.m in Sources */,
+				C7D1470D253D3F070017D099 /* LanguageSettingViewController.m in Sources */,
+				C7D14720253FC9830017D099 /* NSString+Localization.m in Sources */,
+				C7D1471C253E78EF0017D099 /* UIImageView+Localization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C7D146AB253940220017D099 /* Main.storyboard */ = {
+		C7D146E6253983770017D099 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C7D146AC253940220017D099 /* Base */,
+				C7D146E5253983770017D099 /* en */,
+				C7D146E82539837A0017D099 /* zh-Hans */,
+				C7D146E92539837C0017D099 /* zh-Hant */,
+				C7D146EA2539837D0017D099 /* de */,
+				C7D146EB2539837F0017D099 /* ja */,
+				C7D1472225401D540017D099 /* ar */,
 			);
-			name = Main.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C7D146B0253940220017D099 /* LaunchScreen.storyboard */ = {
+		C7D146F3253985490017D099 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C7D146B1253940220017D099 /* Base */,
+				C7D146F2253985490017D099 /* en */,
+				C7D146F52539854C0017D099 /* zh-Hans */,
+				C7D146F62539854D0017D099 /* de */,
+				C7D146F72539854E0017D099 /* zh-Hant */,
+				C7D146F82539854F0017D099 /* ja */,
+				C7D1472325401D540017D099 /* ar */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C7D146FF25398BDA0017D099 /* demo.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D146FE25398BDA0017D099 /* en */,
+				C7D1470125398BDE0017D099 /* zh-Hans */,
+				C7D1470225398BDF0017D099 /* zh-Hant */,
+				C7D1470325398BE00017D099 /* de */,
+				C7D1470425398BE10017D099 /* ja */,
+				C7D1472425401D540017D099 /* ar */,
+			);
+			name = demo.strings;
+			sourceTree = "<group>";
+		};
+		C7D1472B254028AE0017D099 /* flag.jpeg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D1472A254028AE0017D099 /* en */,
+				C7D1472D254028B60017D099 /* ar */,
+				C7D1472E254028B90017D099 /* zh-Hans */,
+				C7D1472F254028BA0017D099 /* zh-Hant */,
+				C7D14730254028BB0017D099 /* de */,
+				C7D14731254028BD0017D099 /* ja */,
+			);
+			name = flag.jpeg;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,6 +431,7 @@
 		};
 		C7D146B9253940220017D099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CAEEF7DB1D93EBB46706B3 /* Pods-GlobalDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +450,7 @@
 		};
 		C7D146BA253940220017D099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D40F46716918397C94CFDA /* Pods-GlobalDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
